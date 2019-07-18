@@ -31,7 +31,7 @@ export const query = graphql`
 export default () => (
   <div>
     <h1>Find Your Recipe</h1>
-    <h1>Use the search bar to find a recipe that you like.</h1>
+    <h2>Use the search bar to find a recipe that you like.</h2>
 
     <InstantSearch searchClient={searchClient} indexName="test_Products">
       <SearchBox />
