@@ -2,15 +2,18 @@ require("dotenv").config()
 
 const myQuery = `
 {
-  allAirtable(filter: {table: {eq: "Recipes"}}) {
+  allAirtable {
     edges {
       node {
         data {
           Name
+          Cooking_Method
+          Total_Time
           Ingredients
-          Style
         }
-        id
+        fields {
+          slug
+        }
       }
     }
   }
