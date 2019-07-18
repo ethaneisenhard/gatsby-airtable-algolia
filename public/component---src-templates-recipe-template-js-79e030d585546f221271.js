@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{172:function(e,n,a){"use strict";a.r(n),a.d(n,"query",function(){return u});var t=a(0),r=a.n(t);n.default=function(e){return e.data.allAirtable.edges.map(function(e){var n=e.node;return r.a.createElement("div",null,r.a.createElement("h1",null,n.data.Name))})};var u="3674695801"}}]);
+//# sourceMappingURL=component---src-templates-recipe-template-js-79e030d585546f221271.js.map
